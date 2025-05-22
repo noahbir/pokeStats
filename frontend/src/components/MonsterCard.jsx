@@ -3,11 +3,11 @@ function MonsterCard({monster}) {
     return(
         <div className="monster-card">
             <div className="monster-img">
-                <img src={monster.url} alt={monster.name} />
+                <img src={monster.sprites.front_default} alt={monster.name} />
             </div>
             <div className="monster-info">
                 <h3>{monster.name}</h3>
-                <p>{monster.type}</p>
+                <p>{monster.types[0].type.name}</p>
             </div>
 
         </div>

@@ -1,0 +1,14 @@
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1rem;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.monster-card {
+  flex: 1 1 150px;     /* grow/shrink around a 150px base */
+  box-sizing: border-box;
+  max-width: 1fr;      /* let CSS distribute extra space */
+}
